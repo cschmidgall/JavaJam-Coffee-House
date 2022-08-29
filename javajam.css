@@ -54,6 +54,14 @@ footer {
 	padding-bottom: 10px; 
 	border-top: 2px solid #221811; 
 }
+table {
+	margin: auto;
+	width: 90%;
+	border-spacing: 0;
+	background-color: #ffffcc;
+}
+td, th { padding: 10px; }
+tr:nth-of-type(odd) { background-color: #d2b48c; }
 #wrapper { 
 	background-color: #231814;
 	margin: auto;
