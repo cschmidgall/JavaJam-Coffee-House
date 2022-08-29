@@ -1,3 +1,5 @@
+header, nav, main, footer { display: block; }
+* { box-sizing: border-box; }
 body { background-image: url(background.gif);
 	   color: #221811;
 	   font-family: Verdana, Arial, sans-serif; }
@@ -11,28 +13,71 @@ h1 { background-color: #D2B48C;
 h4 { background-color: #d2b48c;
 	 font-size: 1.2em;
 	 padding-left: 10px;
-	 padding-bottom: 5px; }
-nav { text-align: center;
+	 padding-bottom: 5px;
+	 text-transform: uppercase; 
+	 border-bottom: 3px;
+	 padding-bottom: 0px; 
+	 clear: left; }
+nav { float: left;
+	  width: 200px;
 	  font-weight: bold;
 	  font-size: 1.5em;
-	  padding-top: 10px; }
+	  padding: 10px;
+	  text-align: center; }
 nav a { text-decoration: none; }
-main { padding-left: 2em;
-	   padding-right: 2em;
-	   padding-bottom: 2em;
-	   display: block; }
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+nav ul { list-style-type: none;
+		 padding-left: 0px; }
+main { padding-left: 0em;
+	   padding-right: 0em;
+	   padding-bottom: 0em;
+	   padding-top: 0em;
+	   margin-left: 200px;
+	   background-color: #FEF6C2; }
+main h2 { padding-left: 3em;
+		  padding-right: 2em; }
+main h3 { padding-left: 3em;
+		  padding-right: 2em; }
+main h4 { padding-left: 3em;
+		  padding-right: 2em; }
+main p { padding-left: 3em;
+		  padding-right: 2em; }
+main div { padding-left: 3em;
+		  padding-right: 2em; }
+main ul { padding-left: 3em;
+		  padding-right: 2em; }
+main dl { padding-left: 3em;
+		  padding-right: 2em; }
 footer { background-color: #D2B48C;
 		 text-align: center;
 		 font-size: .6em;
 		 font-style: italic;
 		 padding-bottom: 10px; 
 		 border-top: 2px solid #221811}
-#wrapper { background-color: #fef6c2;
+#wrapper { background-color: #231814;
 		   margin-left: auto;
 		   margin-right: auto;
 		   width: 80%;
 		   min-width: 900px;
 		   max-width: 1280px;
-		   box-shadow: 3px 3px 3px #333; }
-.details { padding-left: 20%; 
-		   padding-right: 20%; }
+		   box-shadow: 3px 3px 3px #333;}
+#heroroad { background-image: url(heroroad.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			height: 250px; }
+#heromugs { background-image: url(heromugs.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			height: 250px; }
+#heroguitar { background-image: url(heroguitar.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			height: 250px; }
+#details { padding-left: 20%; 
+		   padding-right: 20%;
+		   overflow: auto; }
+.floatleft { float: left;
+			 padding-right: 20px;
+			 padding-bottom: 20px; }
