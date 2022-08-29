@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<title>JavaJam Coffee House Music</title>
+	<title>JavaJam Coffee House Menu</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="javajam.css">
 	<link rel="stylesheet" href="javajamprint.css" media="print">
-			<!--[if lt IE 9]>
+	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 	</script>
 	<![endif]-->
@@ -26,22 +26,22 @@
 			</ul>
 		</nav>
 		<main>
-			<div id="heroguitar"></div>
-			<h2>Music at JavaJam</h2>
-			<p>The first Friday night each month at JavaJam is a special night. Join
-			us from 8 pm to 11 pm for some music you won't want to miss!</p>
-			<h4>January</h4>
-				<div id="details">
-					<a href="img/melanie.jpg"><img src="img/melaniethumb.jpg" 
-					alt="Melanie Morris" class="floatleft" width="80" height="80"></a>
-					Melanie Morris entertains with her melodic folk style.
-				</div>
-			<h4>February</h4>
-				<div id="details">
-					<a href="img/greg.jpg"><img src="img/gregthumb.jpg" 
-					alt="Tahoe Greg" class="floatleft" width="80" height="80"></a>
-					Tahoe Greg is back from his tour. New songs. New stories.
-				</div>
+			<h2>Jobs at JavaJam</h2>
+			<p>Want to work at JavaJam? Fill out the form below to 
+				start you application. Required fields are marked 
+				with an asterisk (*).</p>
+			<form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+				<label for="myName">*Name:</label>
+				<input type="text" name="myName" id="myName" 
+				required="required" placeholder="enter first and last name">
+				<label for="myEmail">*E-mail:</label>
+				<input type="email" name="myEmail" id="myEmail"
+				required="required" placeholder="you@domain.com">
+				<label for="myExperience">*Experience: </label>
+				<textarea name="myExperience" id="myExperience"
+				rows="2" cols="20" required="required"></textarea>
+				<input id="mySubmit" type="submit" value="Apply Now">
+			</form>
 		</main>
 		<footer>
 			Copyright &copy; 2016 Christopher Schmidgall<br>

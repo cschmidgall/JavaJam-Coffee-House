@@ -1,13 +1,13 @@
 header, nav, main, footer { display: block; }
 * { box-sizing: border-box; }
 header {
-	background-image: url(javajamlogo.jpg);
+	background-image: url(img/javajamlogo.jpg);
 	background-repeat: no-repeat;
 	background-color: #D2B48C;
 	height: 150px;
 }
 body { 
-	background-image: url(background.gif);
+	background-image: url(img/background.gif);
 	color: #221811;
 	font-family: Verdana, Arial, sans-serif; 
 }
@@ -17,8 +17,7 @@ h1 {
 	font-size: 3em;
 }
 main { 
-	padding: 0 2em 2em 2em;
-	margin-top: 0;
+	padding: 0.25em 2em 2em 2em;
 	margin-left: 200px;
 	background-color: #FEF6C2; 
 }
@@ -62,6 +61,21 @@ table {
 }
 td, th { padding: 10px; }
 tr:nth-of-type(odd) { background-color: #d2b48c; }
+form {
+	padding: 2em;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+#mySubmit { margin-left: 9.5em;}
 #wrapper { 
 	background-color: #231814;
 	margin: auto;
@@ -71,19 +85,19 @@ tr:nth-of-type(odd) { background-color: #d2b48c; }
 	box-shadow: 3px 3px 3px #333; 
 }
 #heroroad { 
-	background-image: url(heroroad.jpg);
+	background-image: url(img/heroroad.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 250px; 
 }
 #heromugs { 
-	background-image: url(heromugs.jpg);
+	background-image: url(img/heromugs.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 250px; 
 }
 #heroguitar { 
-	background-image: url(heroguitar.jpg);
+	background-image: url(img/heroguitar.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 250px; 
@@ -136,7 +150,7 @@ tr:nth-of-type(odd) { background-color: #d2b48c; }
 }
 @media only screen and (max-width: 768px) {
 	header {
-		background-image: url(javajammini.jpg);
+		background-image: url(img/javajammini.jpg);
 		background-repeat: no-repeat;
 		height: 128px;
 	}
